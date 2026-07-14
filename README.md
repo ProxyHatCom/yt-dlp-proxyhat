@@ -7,6 +7,10 @@ Download videos with [yt-dlp](https://github.com/yt-dlp/yt-dlp) through [ProxyHa
 [![PyPI](https://img.shields.io/pypi/v/yt-dlp-proxyhat)](https://pypi.org/project/yt-dlp-proxyhat/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+> [!TIP]
+> **Recommended proxies — [ProxyHat](https://proxyhat.com?utm_source=github&utm_medium=readme&utm_campaign=yt-dlp&utm_content=callout) residential IPs.** Every feature in this package is tested end-to-end against ProxyHat and works great. First-class integration; also works with any proxy, or none.
+
+
 ## Why
 
 Lots of videos are geo-restricted — available in one country and blocked everywhere else. yt-dlp can route through a proxy, but only if you have a residential exit IP in the right place. This package plugs ProxyHat's residential IPs (50M+ across 148+ countries) into yt-dlp's first-class `proxy` option: pick a `country` and the whole download — manifest and every fragment — comes from a real residential IP there, so the site serves the video instead of a geo-block. No fork, no boilerplate.
